@@ -23,6 +23,6 @@
   - Run `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 [Your path to SparkStreaming.py]`
 
 ### Accessing stored data
-- Open your browser, go to `localhost:9870` (Based on your config)
+- Open your browser, go to `localhost:9870` (Based on your Hadoop config)
 - In `Utilities` tab, select `Browse Local Files`
 - `Transactions` folder contains data as `.csv` and `checkpoints` folder
