@@ -26,3 +26,9 @@
 - Open your browser, go to `localhost:9870` (Based on your Hadoop config)
 - In `Utilities` tab, select `Browse Local Files`
 - `Transactions` folder contains data as `.csv` and `checkpoints` folder
+
+### Visualization
+- After running Kafka, Hadoop, Spark, open file Power BI to see the report
+- The default source is `http://localhost:9870/webhdfs/v1`
+- To change the source, go to Transform data. Go to Home -> Advanced Editor. Then change the Source by replacing the port based on your Hadoop config. Then Close & Apply
+- To access the latest data, go to Home -> Refresh
