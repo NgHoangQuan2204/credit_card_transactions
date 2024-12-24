@@ -1,0 +1,1 @@
+Start-Process "C:\Program Files\Microsoft Power BI Desktop\bin\PBIDesktop.exe" -ArgumentList "D:\test\XLPTDLTT.pbix"
