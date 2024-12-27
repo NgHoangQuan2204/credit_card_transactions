@@ -16,7 +16,7 @@ with DAG(
     'power_bi_refresh',
     default_args=default_args,
     description='DAG to refresh Power BI data every day using PowerShell',
-    schedule_interval='*/5 * * * *',
+    schedule_interval='@daily',
     start_date=datetime(2024, 12, 1),
     catchup=False,
 ) as dag:
@@ -24,5 +24,5 @@ with DAG(
     # Bước để chạy PowerShell script làm mới Power BI
     refresh_power_bi = BashOperator(
         task_id='refresh_power_bi',
-        bash_command='powershell.exe -ExecutionPolicy Bypass -File "D:\\test\\refresh_power_bi.ps1"'
+        bash_command= 'powershell.exe -ExecutionPolicy Bypass -File "C:\\Users\\kdat1\\OneDrive\\Documents\\VS Project\\Credit Card Transactions\\credit_card_transactions\\airflow\\refresh_power_bi.ps1"'
     )
