@@ -39,7 +39,8 @@
 - Make sure to change the path to your `refresh_power_bi.ps1` in `powerbi_refresh_dag.py` and path to your `PBIDesktop.exe` in `refresh_power_bi.ps1`
 - Open `WSL`
 - Run `source airflow_env/bin/activate ` to activate virtual environment
+- Run 'airflow db init'
 - Run `airflow scheduler`
 - Open another `WSL` window and activate virtual environment
-- Run `airflow webserver ` to run webserver
-- You can access homepage through `localhost:8080` and activate it
+- Run `airflow webserver` to run webserver
+- You can access webserver UI through `localhost:8080` and activate the dag
