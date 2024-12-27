@@ -10,6 +10,10 @@
   - Run `start-dfs.cmd` 
   - Run `start-yarn.cmd`
 
+### Apache Spark
+- Using `cmd`
+  - Run `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 [Your path to SparkStreaming.py]`
+    
 ### Apache Kafka
 - Using `cmd`
   - Run `C:\kafka\bin\windows\zookeeper-server-start.bat C:\kafka\config\zookeeper.properties` to start Zookeeper server
@@ -18,10 +22,6 @@
   - Run `C:\kafka\bin\windows\kafka-console-consumer.bat --topic Project --bootstrap-server localhost:9092 --from-beginning` to start a consumer
 - Using `VS Code`
   - Run all in `KafkaProducer.ipynb` to start ingesting data
-
- ### Apache Spark
- - Using `cmd`
-  - Run `spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.3.2 [Your path to SparkStreaming.py]`
 
 ### Accessing stored data
 - Open your browser, go to `localhost:9870` (Based on your Hadoop config)
