@@ -1,5 +1,8 @@
 User,Card,Year,Month,Day,Time,Amount,Use Chip,Merchant Name,Merchant City,Merchant State,Zip,MCC,Errors?,Is Fraud?
 0,0,2002,9,1,6:21,$134.09 ,Swipe Transaction,3.52721E+18,La Verne,CA,91750,5300,,No
+9,9,2002,9,3,13:53,$86.19 ,Swipe Transaction,-7.14667E+18,Monterey Park,CA,91755,5970,,No
+9,9,2002,9,3,13:53,$86.19 ,Swipe Transaction,-7.14667E+18,Monterey Park,CA,91755,5970,,No
+9,9,2002,9,3,13:53,$86.19 ,Swipe Transaction,-7.14667E+18,Monterey Park,CA,91755,5970,,No
 0,0,2002,9,1,6:21,$134.09 ,Swipe Transaction,3.52721E+18,La Verne,CA,91750,5300,,Yes
 0,0,2002,9,1,6:42,$38.48 ,Swipe Transaction,-7.27612E+17,Monterey Park,CA,91754,5411,,No
 0,0,2002,9,2,6:22,$120.34 ,Swipe Transaction,-7.27612E+17,Monterey Park,CA,91754,5411,,No

@@ -54,7 +54,7 @@ line = value_df.filter(col('Is Fraud?') == 'No') \
 
 query = line.writeStream \
     .format("csv") \
-    .trigger(processingTime="300 seconds") \
+    .trigger(processingTime="10 seconds") \
     .option("header",True) \
     .option("checkpointLocation", "hdfs://localhost:9000/Transactions/checkpoints") \
     .option("path", "hdfs://localhost:9000/Transactions") \
